@@ -559,15 +559,6 @@ AddOutputFilter chunkFilter
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PneumaPneumatics Controller.vi" Type="VI" URL="../PneumaPneumatics/Implementation/PneumaPneumatics Controller.vi"/>
-			<Item Name="PneumaPneumatics Setpoints.ctl" Type="VI" URL="../PneumaPneumatics/Implementation/PneumaPneumatics Setpoints.ctl"/>
-			<Item Name="PneumaPneumatics Operations.ctl" Type="VI" URL="../PneumaPneumatics/Implementation/PneumaPneumatics Operations.ctl"/>
-			<Item Name="PneumaPneumatics Controller Interactive Check.vi" Type="VI" URL="../PneumaPneumatics/Implementation/Infrastructure/PneumaPneumatics Controller Interactive Check.vi"/>
-			<Item Name="Read PneumaPneumatics Operation.vi" Type="VI" URL="../PneumaPneumatics/Commands/Read PneumaPneumatics Operation.vi"/>
-			<Item Name="PneumaPneumatics Command Helper.vi" Type="VI" URL="../PneumaPneumatics/Implementation/Infrastructure/PneumaPneumatics Command Helper.vi"/>
-			<Item Name="PneumaPneumatics Published Globals.vi" Type="VI" URL="../PneumaPneumatics/Implementation/PneumaPneumatics Published Globals.vi"/>
-			<Item Name="PneumaPneumatics Controller Initialization.vi" Type="VI" URL="../PneumaPneumatics/Implementation/Infrastructure/PneumaPneumatics Controller Initialization.vi"/>
-			<Item Name="PneumaPneumatics Check for New Command.vi" Type="VI" URL="../PneumaPneumatics/Implementation/Infrastructure/PneumaPneumatics Check for New Command.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -636,8 +627,16 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{83B9CD43-3B60-41E9-B56F-B933B23BFE6C}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">14</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="CDF_Comp.Count" Type="Int">2</Property>
+				<Property Name="CDF_Comp[0].ID" Type="Str">{899452D2-C085-430B-B76D-7FDB33BB324A}</Property>
+				<Property Name="CDF_Comp[0].Title" Type="Str">LabVIEW Real-Time</Property>
+				<Property Name="CDF_Comp[0].Version" Type="Str">18.0.0</Property>
+				<Property Name="CDF_Comp[1].ID" Type="Str">{3B87558E-D9A4-49CC-9377-BEB8659CFD50}</Property>
+				<Property Name="CDF_Comp[1].Title" Type="Str">NI Vision RT</Property>
+				<Property Name="CDF_Comp[1].Version" Type="Str">18.0.0</Property>
+				<Property Name="CDF_enabled" Type="Bool">true</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -647,7 +646,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8496DB7A-5BBC-4302-B406-18E60C4AB903}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A35D1862-2E9A-4FC3-BF95-895945340469}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Target/Robot Main.vi</Property>
